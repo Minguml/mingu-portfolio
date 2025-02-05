@@ -1,7 +1,7 @@
 {
 	"name": "static-portfolio",
-	"homepage": "https://Minguml.github.io/mingu-portfolio/",
-	"private": true,
+	"homepage": "https://minguml.github.io/mingu-portfolio/",
+	"private": false,
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
@@ -9,8 +9,8 @@
 		"build": "tsc -b && vite build",
 		"lint": "eslint .",
 		"preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d dist"
 	},
 	"dependencies": {
 		"@nextui-org/react": "^2.6.10",
