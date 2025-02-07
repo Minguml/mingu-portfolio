@@ -1,6 +1,5 @@
 {
 	"name": "static-portfolio",
-	"homepage": "https://minguml.github.io/mingu-portfolio/",
 	"private": false,
 	"version": "0.0.0",
 	"type": "module",
