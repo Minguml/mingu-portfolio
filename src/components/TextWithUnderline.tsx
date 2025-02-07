@@ -14,10 +14,10 @@ export default function TextWithUnderline({
 
 	return (
 		<div
-			onMouseOver={(e) => {
+			onMouseOver={() => {
 				setIsHovered(true);
 			}} // Add your mouse over event here
-			onMouseLeave={(e) => {
+			onMouseLeave={() => {
 				setIsHovered(false);
 			}} // Add your mouse leave event here
 			style={{

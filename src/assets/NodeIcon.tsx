@@ -1,7 +1,6 @@
-// icon:logo-nodejs | Ionicons https://ionicons.com/ | Ionic Framework
-import * as React from "react";
+import { SVGProps } from "react";
 
-function NodeIcon(props) {
+function NodeIcon(props: SVGProps<SVGSVGElement>) {
 	return (
 		<svg
 			viewBox="0 0 512 512"

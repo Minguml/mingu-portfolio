@@ -1,20 +1,20 @@
-import React, { useEffect } from "react";
+import React from "react";
 import LandingAnimation from "../components/LandingAnimation";
-import { Outlet, Link, useLocation, useNavigate } from "react-router";
+import { Outlet, useNavigate } from "react-router";
 import { Tab, Tabs } from "@nextui-org/tabs";
 import { introStore } from "../store/introStore";
 
 export default function LandingLayout() {
 	const { loaded } = introStore();
 	console.log(loaded);
-	const paths = [
-		"/home",
-		"/about-me",
-		"/projects",
-		"/skills",
-		"/contact",
-	];
-	const location = useLocation();
+	// const paths = [
+	// 	"/home",
+	// 	"/about-me",
+	// 	"/projects",
+	// 	"/skills",
+	// 	"/contact",
+	// ];
+	// const location = useLocation();
 	const navigate = useNavigate();
 	const tabs = [
 		{

@@ -1,7 +1,6 @@
-// icon:html5 | Ant Design Icons https://ant.design/components/icon/ | Ant Design
-import * as React from "react";
+import { SVGProps } from "react";
 
-function HtmlIcon(props) {
+function HtmlIcon(props: SVGProps<SVGSVGElement>) {
 	return (
 		<svg
 			viewBox="0 0 1024 1024"

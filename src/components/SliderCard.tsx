@@ -1,5 +1,3 @@
-import React from "react";
-
 type sliderCardProps = {
 	title: string;
 	role: string;

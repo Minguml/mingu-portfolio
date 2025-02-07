@@ -1,4 +1,3 @@
-import React from "react";
 import { projectsData } from "../utils/projectConstants";
 import SliderCard from "./SliderCard";
 import Carousel from "react-multi-carousel";

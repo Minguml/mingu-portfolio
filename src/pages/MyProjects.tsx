@@ -1,5 +1,3 @@
-import React from "react";
-import ProjectsSlider from "../components/ProjectsSlider";
 import ProjectsListing from "../components/ProjectsListing";
 
 export default function MyProjects() {

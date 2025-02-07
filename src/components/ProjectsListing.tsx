@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { motion } from "motion/react";
 import { projectsData } from "../utils/projectConstants";
 import { LinkIcon } from "../assets/LinkIcon";

@@ -1,4 +1,3 @@
-import React from "react";
 import ReactIcon from "../assets/ReactIcon";
 import { NextIcon } from "../assets/NextIcon";
 import { TailwindIcon } from "../assets/TailwindIcon";

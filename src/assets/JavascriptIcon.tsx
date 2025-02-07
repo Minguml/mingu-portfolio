@@ -1,7 +1,6 @@
-// icon:bxl-javascript | Boxicons https://boxicons.com/ | Atisa
-import * as React from "react";
+import { SVGProps } from "react";
 
-function JavascriptIcon(props) {
+function JavascriptIcon(props: SVGProps<SVGSVGElement>) {
 	return (
 		<svg
 			viewBox="0 0 24 24"

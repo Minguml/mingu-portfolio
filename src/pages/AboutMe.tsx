@@ -1,4 +1,3 @@
-import React from "react";
 import TypedName from "../components/TypedName";
 import { motion } from "motion/react";
 import CssIcon from "../assets/CssIcon";
@@ -8,7 +7,6 @@ import HtmlIcon from "../assets/HtmlIcon";
 import { MongoIcon } from "../assets/MongoIcon";
 import NodeIcon from "../assets/NodeIcon";
 import ExpressIcon from "../assets/ExpressIcon";
-import { LinkIcon } from "../assets/LinkIcon";
 
 export default function AboutMe() {
 	const skills = [
