@@ -5,7 +5,7 @@ import "./index.css";
 import routes from "./configs/routes.tsx";
 import { NextUIProvider } from "@nextui-org/system";
 
-const router = createBrowserRouter(routes, {basename: "/mingu-portfolio"});
+const router = createBrowserRouter(routes);
 
 createRoot(document.getElementById("root")!).render(
 	<StrictMode>
