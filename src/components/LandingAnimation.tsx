@@ -7,6 +7,7 @@ export default function LandingAnimation() {
 	const [isMounted, setIsMounted] = useState(true);
 
 	useEffect(() => {
+		document.title = "Nhat Minh - Portfolio";
 		const timer = setTimeout(() => {
 			setIsMounted(false);
 		}, 1750);
