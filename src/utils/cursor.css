@@ -1,4 +1,10 @@
 .typed-cursor {
-    font-size: 3rem;
+    font-size: 1.5rem;
     color: white;
+}
+
+@media (min-width: 768px) {
+    .typed-cursor {
+        font-size: 2rem;
+    }
 }
